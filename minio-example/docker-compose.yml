@@ -32,7 +32,7 @@ services:
       POSTGRES_PASSWORD: password
 
   keycloak:
-    image: jboss/keycloak:15
+    image: jboss/keycloak:15.0.2
     depends_on:
       - keycloak-db
     networks:
